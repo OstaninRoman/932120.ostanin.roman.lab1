@@ -1,0 +1,65 @@
+*{
+    font-family: Arial;
+}
+
+body{
+    color: white;
+}
+
+section{
+    background-color: blue;
+    border: 20px solid blue;
+    margin-left: 35%;
+    margin-right: 35%;
+}
+
+header, footer{
+    background-color: green;
+    text-align: center;
+    padding: 5px;
+}
+
+.indentation{
+    border: 2px solid white;
+    float: left;
+    width: 100px;
+    height: 100px;
+    margin: 0 10px;
+    border-radius: 20px 1px;
+}
+
+h2{
+    word-spacing: 4px;
+}
+
+ul > li{
+    margin-bottom: 10px;
+}
+
+.block{
+    text-align: center;
+}
+
+.conteiner{
+    float: right;
+}
+
+.table{
+    display: grid;
+    border: 2px solid white;
+}
+
+.cell{
+    background-color: blue;
+    height: 30px;
+    width: 35px;
+    color: white;
+    border: 2px solid white;
+    text-align: center;
+    vertical-align: bottom;
+}
+
+img{
+    float: right;
+    margin: 10px 0;
+}
